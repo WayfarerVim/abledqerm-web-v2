@@ -11,8 +11,8 @@
   "dependencies": {
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
-     "lucide-react": "^0.383.0"
+    "react-dom": "latest",
+    "lucide-react": "^0.383.0"
   },
   "devDependencies": {
     "@types/node": "latest",
