@@ -66,6 +66,40 @@ export default function Home() {
         </a>
       </section>
 
+      <footer className="px-8 py-20 bg-gray-100 border-t border-gray-200">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-12">
+
+          <div>
+            <h3 className="text-lg font-semibold text-gray-900">ableDERM</h3>
+            <p className="mt-4 text-sm text-gray-600 max-w-xs">
+              Modern, evidence‑based dermatology delivered with clarity, precision and calm.
+            </p>
+          </div>
+
+          <div>
+            <h4 className="text-sm font-semibold text-gray-900 uppercase tracking-wide">Clinic</h4>
+            <ul className="mt-4 space-y-2 text-sm text-gray-600">
+              <li><a href="/services" className="hover:text-gray-900">Services</a></li>
+              <li><a href="/book" className="hover:text-gray-900">Book Consultation</a></li>
+              <li><a href="/about" className="hover:text-gray-900">About</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-sm font-semibold text-gray-900 uppercase tracking-wide">Legal</h4>
+            <ul className="mt-4 space-y-2 text-sm text-gray-600">
+              <li><a href="/privacy" className="hover:text-gray-900">Privacy Policy</a></li>
+              <li><a href="/terms" className="hover:text-gray-900">Terms of Service</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div className="mt-16 pt-8 border-t border-gray-200 text-center text-sm text-gray-500">
+          © {new Date().getFullYear()} ableDERM. All rights reserved.
+        </div>
+      </footer>
+
     </main>
   );
 }
