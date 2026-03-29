@@ -1,20 +1,18 @@
-// Root layout with metadata and providers
+import "./globals.css";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 
+const inter = Inter({ subsets: ["latin"] });
 
-/app
-  /layout.tsx
-  /page.tsx
-  /about
-  /services
-  /contact
-  /legal
-/components
-  /ui
-  /layout
-  /brand
-/lib
-  /seo
-  /utils
-/public
-  /brand
-  /images
+export const metadata: Metadata = {
+  title: "ableDERM",
+  description: "Premium dermatology services",
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body className={inter.className}>{children}</body>
+    </html>
+  );
+}
