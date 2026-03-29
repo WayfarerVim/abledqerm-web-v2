@@ -5,7 +5,7 @@ export default function Home() {
       <section className="px-8 pt-32 pb-36 max-w-6xl mx-auto">
         <div className="max-w-3xl">
           <h1 className="text-6xl font-light tracking-tight leading-[1.1] text-gray-900">
-            Dermatology with clarity,  
+            Dermatology with clarity,{" "}
             <span className="font-semibold">precision</span> and calm.
           </h1>
 
