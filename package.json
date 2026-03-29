@@ -12,7 +12,7 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "lucide-react": "^0.383.0"
+    "lucide-react": "latest"
   },
   "devDependencies": {
     "@types/node": "latest",
