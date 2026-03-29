@@ -1,6 +1,7 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
+
       {/* Hero Section */}
       <section className="px-8 pt-32 pb-36 max-w-6xl mx-auto">
         <div className="max-w-3xl">
@@ -31,6 +32,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </main>
-  );
-}
+
+      {/* Services Overview */}
+      <section className="px-8 py-28 bg-gray-50 border-t border-gray-200">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-semibold tracking-tight text-gray-900">
+            Clinical services
+         
