@@ -38,4 +38,14 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-semibold tracking-tight text-gray-900">
             Clinical services
-         
+          </h2>
+
+          <p className="mt-4 text-lg text-gray-600 max-w-xl leading-relaxed">
+            Evidence‑based dermatology delivered with precision, clarity, and a
+            calm clinical experience.
+          </p>
+
+          <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            {[
+              {
+                title
