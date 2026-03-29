@@ -1,1 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* ableDERM global resets */
+html, body {
+  margin: 0;
+  padding: 0;
+}
