@@ -25,3 +25,17 @@
     "eslint-plugin-prettier": "latest"
   }
 }
+"@types/react": "latest",
+"@types/node": "latest"
+"devDependencies": {
+  "autoprefixer": "latest",
+  "postcss": "latest",
+  "tailwindcss": "latest",
+  "eslint": "latest",
+  "eslint-config-next": "latest",
+  "prettier": "latest",
+  "eslint-config-prettier": "latest",
+  "eslint-plugin-prettier": "latest",
+  "@types/react": "latest",
+  "@types/node": "latest"
+}
