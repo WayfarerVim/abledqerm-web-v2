@@ -24,7 +24,6 @@
     "eslint-config-prettier": "latest",
     "eslint-plugin-prettier": "latest",
     "postcss": "latest",
-    "prettier": "latest",
-    "tailwindcss": "latest"
+    "prettier": "latest"
   }
 }
