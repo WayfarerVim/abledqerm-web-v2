@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'My App',
-  description: 'This is my app layout.'
+  title: "ableDERM | Dermatology & Clinical Skin Services",
+  description: "Premium, clinically trustworthy dermatology services."
 };
 
 export default function Layout({ children }) {
